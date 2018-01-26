@@ -1,0 +1,919 @@
+stuffItem Object
+(
+    [item_type_id] => 1
+    [collection_id] => 26
+    [featured] => 0
+    [public] => 1
+    [added] => 2018-01-19 15:55:53
+    [modified] => 2018-01-19 15:55:53
+    [owner_id] => 5
+    [_related:protected] => Array
+        (
+            [Collection] => getCollection
+            [TypeMetadata] => getTypeMetadata
+            [Type] => getItemType
+            [Tags] => getTags
+            [Files] => getFiles
+            [Elements] => getElements
+            [ItemTypeElements] => getItemTypeElements
+            [ElementTexts] => getAllElementTexts
+        )
+
+    [_files:Item:private] => Array
+        (
+        )
+
+    [id] => 6920
+    [_errors:Omeka_Record_AbstractRecord:private] => Omeka_Validate_Errors Object
+        (
+            [_errors:protected] => Array
+                (
+                )
+
+            [storage:ArrayObject:private] => Array
+                (
+                )
+
+        )
+
+    [_cache:protected] => Array
+        (
+        )
+
+    [_mixins:protected] => Array
+        (
+            [0] => Mixin_Tag Object
+                (
+                    [_tagTable:Mixin_Tag:private] => Table_Tag Object
+                        (
+                            [_target:protected] => Tag
+                            [_name:protected] => 
+                            [_tablePrefix:protected] => 
+                            [_db:protected] => Omeka_Db Object
+                                (
+                                    [prefix] => omeka_
+                                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+                                        (
+                                            [_numericDataTypes:protected] => Array
+                                                (
+                                                    [0] => 0
+                                                    [1] => 1
+                                                    [2] => 2
+                                                    [INT] => 0
+                                                    [INTEGER] => 0
+                                                    [MEDIUMINT] => 0
+                                                    [SMALLINT] => 0
+                                                    [TINYINT] => 0
+                                                    [BIGINT] => 1
+                                                    [SERIAL] => 1
+                                                    [DEC] => 2
+                                                    [DECIMAL] => 2
+                                                    [DOUBLE] => 2
+                                                    [DOUBLE PRECISION] => 2
+                                                    [FIXED] => 2
+                                                    [FLOAT] => 2
+                                                )
+
+                                            [_stmt:protected] => Zend_Db_Statement_Mysqli Object
+                                                (
+                                                    [_keys:protected] => Array
+                                                        (
+                                                            [0] => id
+                                                            [1] => item_type_id
+                                                            [2] => collection_id
+                                                            [3] => featured
+                                                            [4] => public
+                                                            [5] => modified
+                                                            [6] => added
+                                                            [7] => owner_id
+                                                        )
+
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [0] => 6920
+                                                            [1] => 1
+                                                            [2] => 26
+                                                            [3] => 0
+                                                            [4] => 1
+                                                            [5] => 2018-01-19 15:55:53
+                                                            [6] => 2018-01-19 15:55:53
+                                                            [7] => 5
+                                                        )
+
+                                                    [_meta:protected] => mysqli_result Object
+                                                        (
+                                                            [current_field] => 0
+                                                            [field_count] => 8
+                                                            [lengths] => 
+                                                            [num_rows] => 0
+                                                            [type] => 1
+                                                        )
+
+                                                    [_stmt:protected] => mysqli_stmt Object
+                                                        (
+                                                            [affected_rows] => 1
+                                                            [insert_id] => 0
+                                                            [num_rows] => 1
+                                                            [param_count] => 0
+                                                            [field_count] => 8
+                                                            [errno] => 0
+                                                            [error] => 
+                                                            [error_list] => Array
+                                                                (
+                                                                )
+
+                                                            [sqlstate] => 00000
+                                                            [id] => 10
+                                                        )
+
+                                                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+ *RECURSION*
+                                                    [_fetchMode:protected] => 2
+                                                    [_attribute:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [_bindColumn:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [_bindParam:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [_sqlSplit:protected] => Array
+                                                        (
+                                                            [0] => SELECT .* FROM  WHERE (id = (6920))
+                                                        )
+
+                                                    [_sqlParam:protected] => Array
+                                                        (
+                                                            [0] => SELECT .* FROM  WHERE (id = (6920))
+                                                        )
+
+                                                    [_queryId:protected] => 
+                                                )
+
+                                            [_defaultStmtClass:protected] => Zend_Db_Statement_Mysqli
+                                            [_config:protected] => Array
+                                                (
+                                                    [host] => 127.0.0.1
+                                                    [username] => omekatestadmin
+                                                    [password] => 0m3k8t3$t
+                                                    [dbname] => omekatest
+                                                    [prefix] => omeka_
+                                                    [charset] => utf8
+                                                    [driver_options] => Array
+                                                        (
+                                                            [MYSQLI_INIT_COMMAND] => SET SESSION sql_mode='STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+                                                        )
+
+                                                    [persistent] => 
+                                                    [options] => Array
+                                                        (
+                                                            [caseFolding] => 0
+                                                            [autoQuoteIdentifiers] => 1
+                                                            [fetchMode] => 2
+                                                        )
+
+                                                )
+
+                                            [_fetchMode:protected] => 2
+                                            [_profiler:protected] => Zend_Db_Profiler Object
+                                                (
+                                                    [_queryProfiles:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [_enabled:protected] => 
+                                                    [_filterElapsedSecs:protected] => 
+                                                    [_filterTypes:protected] => 
+                                                )
+
+                                            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+                                            [_connection:protected] => mysqli Object
+                                                (
+                                                    [affected_rows] => 1
+                                                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd41fc93cccd5bac2fe7a $
+                                                    [client_version] => 50011
+                                                    [connect_errno] => 0
+                                                    [connect_error] => 
+                                                    [errno] => 0
+                                                    [error] => 
+                                                    [error_list] => Array
+                                                        (
+                                                        )
+
+                                                    [field_count] => 8
+                                                    [host_info] => 127.0.0.1 via TCP/IP
+                                                    [info] => 
+                                                    [insert_id] => 0
+                                                    [server_info] => 5.6.28
+                                                    [server_version] => 50628
+                                                    [stat] => Uptime: 1756213  Threads: 2  Questions: 3907673  Slow queries: 32  Opens: 124  Flush tables: 1  Open tables: 114  Queries per second avg: 2.225
+                                                    [sqlstate] => 00000
+                                                    [protocol_version] => 10
+                                                    [thread_id] => 18868
+                                                    [warning_count] => 0
+                                                )
+
+                                            [_caseFolding:protected] => 0
+                                            [_autoQuoteIdentifiers:protected] => 1
+                                            [_allowSerialization:protected] => 1
+                                            [_autoReconnectOnUnserialize:protected] => 
+                                        )
+
+                                    [_tables:protected] => Array
+                                        (
+                                            [Option] => Omeka_Db_Table Object
+                                                (
+                                                    [_target:protected] => Option
+                                                    [_name:protected] => options
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [Plugin] => Table_Plugin Object
+                                                (
+                                                    [_target:protected] => Plugin
+                                                    [_name:protected] => plugins
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [Session] => Omeka_Db_Table Object
+                                                (
+                                                    [_target:protected] => Session
+                                                    [_name:protected] => sessions
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [Process] => Table_Process Object
+                                                (
+                                                    [_target:protected] => Process
+                                                    [_name:protected] => processes
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [User] => Table_User Object
+                                                (
+                                                    [_target:protected] => User
+                                                    [_name:protected] => users
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [File] => Table_File Object
+                                                (
+                                                    [_target:protected] => File
+                                                    [_name:protected] => files
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [Item] => Table_Item Object
+                                                (
+                                                    [_target:protected] => Item
+                                                    [_name:protected] => items
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [Tag] => Table_Tag Object
+ *RECURSION*
+                                            [RecordsTags] => Table_RecordsTags Object
+                                                (
+                                                    [_target:protected] => RecordsTags
+                                                    [_name:protected] => 
+                                                    [_tablePrefix:protected] => 
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                        )
+
+                                    [_logger:Omeka_Db:private] => 
+                                )
+
+                        )
+
+                    [_joinTable:Mixin_Tag:private] => Table_RecordsTags Object
+                        (
+                            [_target:protected] => RecordsTags
+                            [_name:protected] => 
+                            [_tablePrefix:protected] => 
+                            [_db:protected] => Omeka_Db Object
+                                (
+                                    [prefix] => omeka_
+                                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+                                        (
+                                            [_numericDataTypes:protected] => Array
+                                                (
+                                                    [0] => 0
+                                                    [1] => 1
+                                                    [2] => 2
+                                                    [INT] => 0
+                                                    [INTEGER] => 0
+                                                    [MEDIUMINT] => 0
+                                                    [SMALLINT] => 0
+                                                    [TINYINT] => 0
+                                                    [BIGINT] => 1
+                                                    [SERIAL] => 1
+                                                    [DEC] => 2
+                                                    [DECIMAL] => 2
+                                                    [DOUBLE] => 2
+                                                    [DOUBLE PRECISION] => 2
+                                                    [FIXED] => 2
+                                                    [FLOAT] => 2
+                                                )
+
+                                            [_stmt:protected] => Zend_Db_Statement_Mysqli Object
+                                                (
+                                                    [_keys:protected] => Array
+                                                        (
+                                                            [0] => id
+                                                            [1] => item_type_id
+                                                            [2] => collection_id
+                                                            [3] => featured
+                                                            [4] => public
+                                                            [5] => modified
+                                                            [6] => added
+                                                            [7] => owner_id
+                                                        )
+
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [0] => 6920
+                                                            [1] => 1
+                                                            [2] => 26
+                                                            [3] => 0
+                                                            [4] => 1
+                                                            [5] => 2018-01-19 15:55:53
+                                                            [6] => 2018-01-19 15:55:53
+                                                            [7] => 5
+                                                        )
+
+                                                    [_meta:protected] => mysqli_result Object
+                                                        (
+                                                            [current_field] => 0
+                                                            [field_count] => 8
+                                                            [lengths] => 
+                                                            [num_rows] => 0
+                                                            [type] => 1
+                                                        )
+
+                                                    [_stmt:protected] => mysqli_stmt Object
+                                                        (
+                                                            [affected_rows] => 1
+                                                            [insert_id] => 0
+                                                            [num_rows] => 1
+                                                            [param_count] => 0
+                                                            [field_count] => 8
+                                                            [errno] => 0
+                                                            [error] => 
+                                                            [error_list] => Array
+                                                                (
+                                                                )
+
+                                                            [sqlstate] => 00000
+                                                            [id] => 10
+                                                        )
+
+                                                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+ *RECURSION*
+                                                    [_fetchMode:protected] => 2
+                                                    [_attribute:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [_bindColumn:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [_bindParam:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [_sqlSplit:protected] => Array
+                                                        (
+                                                            [0] => SELECT .* FROM  WHERE (id = (6920))
+                                                        )
+
+                                                    [_sqlParam:protected] => Array
+                                                        (
+                                                            [0] => SELECT .* FROM  WHERE (id = (6920))
+                                                        )
+
+                                                    [_queryId:protected] => 
+                                                )
+
+                                            [_defaultStmtClass:protected] => Zend_Db_Statement_Mysqli
+                                            [_config:protected] => Array
+                                                (
+                                                    [host] => 127.0.0.1
+                                                    [username] => omekatestadmin
+                                                    [password] => 0m3k8t3$t
+                                                    [dbname] => omekatest
+                                                    [prefix] => omeka_
+                                                    [charset] => utf8
+                                                    [driver_options] => Array
+                                                        (
+                                                            [MYSQLI_INIT_COMMAND] => SET SESSION sql_mode='STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+                                                        )
+
+                                                    [persistent] => 
+                                                    [options] => Array
+                                                        (
+                                                            [caseFolding] => 0
+                                                            [autoQuoteIdentifiers] => 1
+                                                            [fetchMode] => 2
+                                                        )
+
+                                                )
+
+                                            [_fetchMode:protected] => 2
+                                            [_profiler:protected] => Zend_Db_Profiler Object
+                                                (
+                                                    [_queryProfiles:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [_enabled:protected] => 
+                                                    [_filterElapsedSecs:protected] => 
+                                                    [_filterTypes:protected] => 
+                                                )
+
+                                            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+                                            [_connection:protected] => mysqli Object
+                                                (
+                                                    [affected_rows] => -1
+                                                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd41fc93cccd5bac2fe7a $
+                                                    [client_version] => 50011
+                                                    [connect_errno] => 0
+                                                    [connect_error] => 
+                                                    [errno] => 0
+                                                    [error] => 
+                                                    [error_list] => Array
+                                                        (
+                                                        )
+
+                                                    [field_count] => 8
+                                                    [host_info] => 127.0.0.1 via TCP/IP
+                                                    [info] => 
+                                                    [insert_id] => 0
+                                                    [server_info] => 5.6.28
+                                                    [server_version] => 50628
+                                                    [stat] => Uptime: 1756213  Threads: 2  Questions: 3907674  Slow queries: 32  Opens: 124  Flush tables: 1  Open tables: 114  Queries per second avg: 2.225
+                                                    [sqlstate] => 00000
+                                                    [protocol_version] => 10
+                                                    [thread_id] => 18868
+                                                    [warning_count] => 0
+                                                )
+
+                                            [_caseFolding:protected] => 0
+                                            [_autoQuoteIdentifiers:protected] => 1
+                                            [_allowSerialization:protected] => 1
+                                            [_autoReconnectOnUnserialize:protected] => 
+                                        )
+
+                                    [_tables:protected] => Array
+                                        (
+                                            [Option] => Omeka_Db_Table Object
+                                                (
+                                                    [_target:protected] => Option
+                                                    [_name:protected] => options
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [Plugin] => Table_Plugin Object
+                                                (
+                                                    [_target:protected] => Plugin
+                                                    [_name:protected] => plugins
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [Session] => Omeka_Db_Table Object
+                                                (
+                                                    [_target:protected] => Session
+                                                    [_name:protected] => sessions
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [Process] => Table_Process Object
+                                                (
+                                                    [_target:protected] => Process
+                                                    [_name:protected] => processes
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [User] => Table_User Object
+                                                (
+                                                    [_target:protected] => User
+                                                    [_name:protected] => users
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [File] => Table_File Object
+                                                (
+                                                    [_target:protected] => File
+                                                    [_name:protected] => files
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [Item] => Table_Item Object
+                                                (
+                                                    [_target:protected] => Item
+                                                    [_name:protected] => items
+                                                    [_tablePrefix:protected] => omeka_
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [Tag] => Table_Tag Object
+                                                (
+                                                    [_target:protected] => Tag
+                                                    [_name:protected] => 
+                                                    [_tablePrefix:protected] => 
+                                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                                )
+
+                                            [RecordsTags] => Table_RecordsTags Object
+ *RECURSION*
+                                        )
+
+                                    [_logger:Omeka_Db:private] => 
+                                )
+
+                        )
+
+                    [_type:Mixin_Tag:private] => Item
+                    [_tagsToSave:Mixin_Tag:private] => Array
+                        (
+                        )
+
+                    [_record:protected] => Item Object
+ *RECURSION*
+                )
+
+            [1] => Mixin_Owner Object
+                (
+                    [_record:protected] => Item Object
+ *RECURSION*
+                    [_column:protected] => owner_id
+                )
+
+            [2] => Mixin_ElementText Object
+                (
+                    [_textsByNaturalOrder:protected] => Array
+                        (
+                        )
+
+                    [_textsByElementId:protected] => Array
+                        (
+                        )
+
+                    [_elementsBySet:protected] => Array
+                        (
+                        )
+
+                    [_elementsById:protected] => Array
+                        (
+                        )
+
+                    [_elementsOnForm:protected] => Array
+                        (
+                        )
+
+                    [_textsToSave:protected] => Array
+                        (
+                        )
+
+                    [_recordsAreLoaded:protected] => 
+                    [_replaceElementTexts:protected] => 
+                    [_record:protected] => Item Object
+ *RECURSION*
+                )
+
+            [3] => Mixin_PublicFeatured Object
+                (
+                    [_wasPublic:Mixin_PublicFeatured:private] => 
+                    [_wasFeatured:Mixin_PublicFeatured:private] => 
+                    [_record:protected] => Item Object
+ *RECURSION*
+                )
+
+            [4] => Mixin_Timestamp Object
+                (
+                    [_record:protected] => Item Object
+ *RECURSION*
+                    [_addedColumn:protected] => added
+                    [_modifiedColumn:protected] => modified
+                )
+
+            [5] => Mixin_Search Object
+                (
+                    [_text:protected] => 
+                    [_title:protected] => 
+                    [_public:protected] => 1
+                    [_record:protected] => Item Object
+ *RECURSION*
+                )
+
+        )
+
+    [_db:protected] => Omeka_Db Object
+        (
+            [prefix] => omeka_
+            [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+                (
+                    [_numericDataTypes:protected] => Array
+                        (
+                            [0] => 0
+                            [1] => 1
+                            [2] => 2
+                            [INT] => 0
+                            [INTEGER] => 0
+                            [MEDIUMINT] => 0
+                            [SMALLINT] => 0
+                            [TINYINT] => 0
+                            [BIGINT] => 1
+                            [SERIAL] => 1
+                            [DEC] => 2
+                            [DECIMAL] => 2
+                            [DOUBLE] => 2
+                            [DOUBLE PRECISION] => 2
+                            [FIXED] => 2
+                            [FLOAT] => 2
+                        )
+
+                    [_stmt:protected] => Zend_Db_Statement_Mysqli Object
+                        (
+                            [_keys:protected] => Array
+                                (
+                                    [0] => id
+                                    [1] => item_type_id
+                                    [2] => collection_id
+                                    [3] => featured
+                                    [4] => public
+                                    [5] => modified
+                                    [6] => added
+                                    [7] => owner_id
+                                )
+
+                            [_values:protected] => Array
+                                (
+                                    [0] => 6920
+                                    [1] => 1
+                                    [2] => 26
+                                    [3] => 0
+                                    [4] => 1
+                                    [5] => 2018-01-19 15:55:53
+                                    [6] => 2018-01-19 15:55:53
+                                    [7] => 5
+                                )
+
+                            [_meta:protected] => mysqli_result Object
+                                (
+                                    [current_field] => 0
+                                    [field_count] => 8
+                                    [lengths] => 
+                                    [num_rows] => 0
+                                    [type] => 1
+                                )
+
+                            [_stmt:protected] => mysqli_stmt Object
+                                (
+                                    [affected_rows] => 1
+                                    [insert_id] => 0
+                                    [num_rows] => 1
+                                    [param_count] => 0
+                                    [field_count] => 8
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [sqlstate] => 00000
+                                    [id] => 10
+                                )
+
+                            [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+ *RECURSION*
+                            [_fetchMode:protected] => 2
+                            [_attribute:protected] => Array
+                                (
+                                )
+
+                            [_bindColumn:protected] => Array
+                                (
+                                )
+
+                            [_bindParam:protected] => Array
+                                (
+                                )
+
+                            [_sqlSplit:protected] => Array
+                                (
+                                    [0] => SELECT .* FROM  WHERE (id = (6920))
+                                )
+
+                            [_sqlParam:protected] => Array
+                                (
+                                    [0] => SELECT .* FROM  WHERE (id = (6920))
+                                )
+
+                            [_queryId:protected] => 
+                        )
+
+                    [_defaultStmtClass:protected] => Zend_Db_Statement_Mysqli
+                    [_config:protected] => Array
+                        (
+                            [host] => 127.0.0.1
+                            [username] => omekatestadmin
+                            [password] => 0m3k8t3$t
+                            [dbname] => omekatest
+                            [prefix] => omeka_
+                            [charset] => utf8
+                            [driver_options] => Array
+                                (
+                                    [MYSQLI_INIT_COMMAND] => SET SESSION sql_mode='STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+                                )
+
+                            [persistent] => 
+                            [options] => Array
+                                (
+                                    [caseFolding] => 0
+                                    [autoQuoteIdentifiers] => 1
+                                    [fetchMode] => 2
+                                )
+
+                        )
+
+                    [_fetchMode:protected] => 2
+                    [_profiler:protected] => Zend_Db_Profiler Object
+                        (
+                            [_queryProfiles:protected] => Array
+                                (
+                                )
+
+                            [_enabled:protected] => 
+                            [_filterElapsedSecs:protected] => 
+                            [_filterTypes:protected] => 
+                        )
+
+                    [_defaultProfilerClass:protected] => Zend_Db_Profiler
+                    [_connection:protected] => mysqli Object
+                        (
+                            [affected_rows] => -1
+                            [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd41fc93cccd5bac2fe7a $
+                            [client_version] => 50011
+                            [connect_errno] => 0
+                            [connect_error] => 
+                            [errno] => 0
+                            [error] => 
+                            [error_list] => Array
+                                (
+                                )
+
+                            [field_count] => 8
+                            [host_info] => 127.0.0.1 via TCP/IP
+                            [info] => 
+                            [insert_id] => 0
+                            [server_info] => 5.6.28
+                            [server_version] => 50628
+                            [stat] => Uptime: 1756213  Threads: 2  Questions: 3907675  Slow queries: 32  Opens: 124  Flush tables: 1  Open tables: 114  Queries per second avg: 2.225
+                            [sqlstate] => 00000
+                            [protocol_version] => 10
+                            [thread_id] => 18868
+                            [warning_count] => 0
+                        )
+
+                    [_caseFolding:protected] => 0
+                    [_autoQuoteIdentifiers:protected] => 1
+                    [_allowSerialization:protected] => 1
+                    [_autoReconnectOnUnserialize:protected] => 
+                )
+
+            [_tables:protected] => Array
+                (
+                    [Option] => Omeka_Db_Table Object
+                        (
+                            [_target:protected] => Option
+                            [_name:protected] => options
+                            [_tablePrefix:protected] => omeka_
+                            [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                        )
+
+                    [Plugin] => Table_Plugin Object
+                        (
+                            [_target:protected] => Plugin
+                            [_name:protected] => plugins
+                            [_tablePrefix:protected] => omeka_
+                            [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                        )
+
+                    [Session] => Omeka_Db_Table Object
+                        (
+                            [_target:protected] => Session
+                            [_name:protected] => sessions
+                            [_tablePrefix:protected] => omeka_
+                            [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                        )
+
+                    [Process] => Table_Process Object
+                        (
+                            [_target:protected] => Process
+                            [_name:protected] => processes
+                            [_tablePrefix:protected] => omeka_
+                            [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                        )
+
+                    [User] => Table_User Object
+                        (
+                            [_target:protected] => User
+                            [_name:protected] => users
+                            [_tablePrefix:protected] => omeka_
+                            [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                        )
+
+                    [File] => Table_File Object
+                        (
+                            [_target:protected] => File
+                            [_name:protected] => files
+                            [_tablePrefix:protected] => omeka_
+                            [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                        )
+
+                    [Item] => Table_Item Object
+                        (
+                            [_target:protected] => Item
+                            [_name:protected] => items
+                            [_tablePrefix:protected] => omeka_
+                            [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                        )
+
+                    [Tag] => Table_Tag Object
+                        (
+                            [_target:protected] => Tag
+                            [_name:protected] => 
+                            [_tablePrefix:protected] => 
+                            [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                        )
+
+                    [RecordsTags] => Table_RecordsTags Object
+                        (
+                            [_target:protected] => RecordsTags
+                            [_name:protected] => 
+                            [_tablePrefix:protected] => 
+                            [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                        )
+
+                )
+
+            [_logger:Omeka_Db:private] => 
+        )
+
+    [_postData:protected] => 
+    [_locked:Omeka_Record_AbstractRecord:private] => 
+    [_eventCallbacks:Omeka_Record_AbstractRecord:private] => Array
+        (
+            [0] => beforeSave
+            [1] => afterSave
+            [2] => beforeDelete
+            [3] => afterDelete
+        )
+
+    [_pluginBroker:Omeka_Record_AbstractRecord:private] => 
+)

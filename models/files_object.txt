@@ -1,0 +1,1531 @@
+Array
+(
+    [0] => File Object
+        (
+            [item_id] => 6920
+            [order] => 
+            [filename] => ce2ed1ec3753ad30acf0802b311c1556.pdf
+            [original_filename] => https://s3-us-west-2.amazonaws.com/omekastaging/press_releases/GV012-05_PressReleases/GV012-05_pressReleases_1961-09-01.pdf
+            [size] => 113922
+            [authentication] => 79f456f838df6d55bb7e0ddbe8e62e21
+            [mime_type] => application/pdf
+            [type_os] => PDF document, version 1.4
+            [has_derivative_image] => 1
+            [added] => 2018-01-19 15:55:53
+            [modified] => 2018-01-19 15:56:00
+            [stored] => 1
+            [metadata] => {"mime_type":"application\/pdf"}
+            [id] => 7252
+            [_errors:Omeka_Record_AbstractRecord:private] => Omeka_Validate_Errors Object
+                (
+                    [_errors:protected] => Array
+                        (
+                        )
+
+                    [storage:ArrayObject:private] => Array
+                        (
+                        )
+
+                )
+
+            [_cache:protected] => Array
+                (
+                )
+
+            [_mixins:protected] => Array
+                (
+                    [0] => Mixin_ElementText Object
+                        (
+                            [_textsByNaturalOrder:protected] => Array
+                                (
+                                )
+
+                            [_textsByElementId:protected] => Array
+                                (
+                                )
+
+                            [_elementsBySet:protected] => Array
+                                (
+                                )
+
+                            [_elementsById:protected] => Array
+                                (
+                                )
+
+                            [_elementsOnForm:protected] => Array
+                                (
+                                )
+
+                            [_textsToSave:protected] => Array
+                                (
+                                )
+
+                            [_recordsAreLoaded:protected] => 
+                            [_replaceElementTexts:protected] => 
+                            [_record:protected] => File Object
+ *RECURSION*
+                        )
+
+                    [1] => Mixin_Timestamp Object
+                        (
+                            [_record:protected] => File Object
+ *RECURSION*
+                            [_addedColumn:protected] => added
+                            [_modifiedColumn:protected] => modified
+                        )
+
+                    [2] => Mixin_Search Object
+                        (
+                            [_text:protected] => 
+                            [_title:protected] => 
+                            [_public:protected] => 1
+                            [_record:protected] => File Object
+ *RECURSION*
+                        )
+
+                )
+
+            [_db:protected] => Omeka_Db Object
+                (
+                    [prefix] => omeka_
+                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+                        (
+                            [_numericDataTypes:protected] => Array
+                                (
+                                    [0] => 0
+                                    [1] => 1
+                                    [2] => 2
+                                    [INT] => 0
+                                    [INTEGER] => 0
+                                    [MEDIUMINT] => 0
+                                    [SMALLINT] => 0
+                                    [TINYINT] => 0
+                                    [BIGINT] => 1
+                                    [SERIAL] => 1
+                                    [DEC] => 2
+                                    [DECIMAL] => 2
+                                    [DOUBLE] => 2
+                                    [DOUBLE PRECISION] => 2
+                                    [FIXED] => 2
+                                    [FLOAT] => 2
+                                )
+
+                            [_stmt:protected] => Zend_Db_Statement_Mysqli Object
+                                (
+                                    [_keys:protected] => Array
+                                        (
+                                            [0] => id
+                                            [1] => item_id
+                                            [2] => order
+                                            [3] => size
+                                            [4] => has_derivative_image
+                                            [5] => authentication
+                                            [6] => mime_type
+                                            [7] => type_os
+                                            [8] => filename
+                                            [9] => original_filename
+                                            [10] => modified
+                                            [11] => added
+                                            [12] => stored
+                                            [13] => metadata
+                                        )
+
+                                    [_values:protected] => Array
+                                        (
+                                            [0] => 7255
+                                            [1] => 6920
+                                            [2] => 
+                                            [3] => 246511
+                                            [4] => 1
+                                            [5] => c0fc5b7405b99c4f42397d3f48311750
+                                            [6] => application/pdf
+                                            [7] => PDF document, version 1.4
+                                            [8] => 575e1b033159705ed7864d55d24c4b1f.pdf
+                                            [9] => https://s3-us-west-2.amazonaws.com/omekastaging/press_releases/GV012-05_PressReleases/GV012-05_pressReleases_1961-09-15_1.pdf
+                                            [10] => 2018-01-19 15:56:19
+                                            [11] => 2018-01-19 15:56:13
+                                            [12] => 1
+                                            [13] => {"mime_type":"application\/pdf"}
+                                        )
+
+                                    [_meta:protected] => mysqli_result Object
+                                        (
+                                            [current_field] => 0
+                                            [field_count] => 14
+                                            [lengths] => 
+                                            [num_rows] => 0
+                                            [type] => 1
+                                        )
+
+                                    [_stmt:protected] => mysqli_stmt Object
+                                        (
+                                            [affected_rows] => -1
+                                            [insert_id] => 0
+                                            [num_rows] => 4
+                                            [param_count] => 1
+                                            [field_count] => 14
+                                            [errno] => 0
+                                            [error] => 
+                                            [error_list] => Array
+                                                (
+                                                )
+
+                                            [sqlstate] => 00000
+                                            [id] => 11
+                                        )
+
+                                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+ *RECURSION*
+                                    [_fetchMode:protected] => 2
+                                    [_attribute:protected] => Array
+                                        (
+                                        )
+
+                                    [_bindColumn:protected] => Array
+                                        (
+                                        )
+
+                                    [_bindParam:protected] => Array
+                                        (
+                                        )
+
+                                    [_sqlSplit:protected] => Array
+                                        (
+                                            [0] => SELECT .* FROM  AS 
+ INNER JOIN  AS  ON items.id = files.item_id WHERE (files.item_id = 
+                                            [1] => ?
+                                            [2] => ) GROUP BY . ORDER BY ISNULL(files.order) ASC, . ASC
+                                        )
+
+                                    [_sqlParam:protected] => Array
+                                        (
+                                            [0] => SELECT .* FROM  AS 
+ INNER JOIN  AS  ON items.id = files.item_id WHERE (files.item_id = 
+                                            [1] => ?
+                                            [2] => ) GROUP BY . ORDER BY ISNULL(files.order) ASC, . ASC
+                                        )
+
+                                    [_queryId:protected] => 
+                                )
+
+                            [_defaultStmtClass:protected] => Zend_Db_Statement_Mysqli
+                            [_config:protected] => Array
+                                (
+                                    [host] => 127.0.0.1
+                                    [username] => omekatestadmin
+                                    [password] => 0m3k8t3$t
+                                    [dbname] => omekatest
+                                    [prefix] => omeka_
+                                    [charset] => utf8
+                                    [driver_options] => Array
+                                        (
+                                            [MYSQLI_INIT_COMMAND] => SET SESSION sql_mode='STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+                                        )
+
+                                    [persistent] => 
+                                    [options] => Array
+                                        (
+                                            [caseFolding] => 0
+                                            [autoQuoteIdentifiers] => 1
+                                            [fetchMode] => 2
+                                        )
+
+                                )
+
+                            [_fetchMode:protected] => 2
+                            [_profiler:protected] => Zend_Db_Profiler Object
+                                (
+                                    [_queryProfiles:protected] => Array
+                                        (
+                                        )
+
+                                    [_enabled:protected] => 
+                                    [_filterElapsedSecs:protected] => 
+                                    [_filterTypes:protected] => 
+                                )
+
+                            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+                            [_connection:protected] => mysqli Object
+                                (
+                                    [affected_rows] => -1
+                                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd41fc93cccd5bac2fe7a $
+                                    [client_version] => 50011
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 14
+                                    [host_info] => 127.0.0.1 via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 5.6.28
+                                    [server_version] => 50628
+                                    [stat] => Uptime: 1760973  Threads: 1  Questions: 3908081  Slow queries: 32  Opens: 124  Flush tables: 1  Open tables: 114  Queries per second avg: 2.219
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 18876
+                                    [warning_count] => 0
+                                )
+
+                            [_caseFolding:protected] => 0
+                            [_autoQuoteIdentifiers:protected] => 1
+                            [_allowSerialization:protected] => 1
+                            [_autoReconnectOnUnserialize:protected] => 
+                        )
+
+                    [_tables:protected] => Array
+                        (
+                            [Option] => Omeka_Db_Table Object
+                                (
+                                    [_target:protected] => Option
+                                    [_name:protected] => options
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Plugin] => Table_Plugin Object
+                                (
+                                    [_target:protected] => Plugin
+                                    [_name:protected] => plugins
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Session] => Omeka_Db_Table Object
+                                (
+                                    [_target:protected] => Session
+                                    [_name:protected] => sessions
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Process] => Table_Process Object
+                                (
+                                    [_target:protected] => Process
+                                    [_name:protected] => processes
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [User] => Table_User Object
+                                (
+                                    [_target:protected] => User
+                                    [_name:protected] => users
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [File] => Table_File Object
+                                (
+                                    [_target:protected] => File
+                                    [_name:protected] => files
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Item] => Table_Item Object
+                                (
+                                    [_target:protected] => Item
+                                    [_name:protected] => items
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Tag] => Table_Tag Object
+                                (
+                                    [_target:protected] => Tag
+                                    [_name:protected] => 
+                                    [_tablePrefix:protected] => 
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [RecordsTags] => Table_RecordsTags Object
+                                (
+                                    [_target:protected] => RecordsTags
+                                    [_name:protected] => 
+                                    [_tablePrefix:protected] => 
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                        )
+
+                    [_logger:Omeka_Db:private] => 
+                )
+
+            [_related:protected] => Array
+                (
+                )
+
+            [_postData:protected] => 
+            [_locked:Omeka_Record_AbstractRecord:private] => 
+            [_eventCallbacks:Omeka_Record_AbstractRecord:private] => Array
+                (
+                    [0] => beforeSave
+                    [1] => afterSave
+                    [2] => beforeDelete
+                    [3] => afterDelete
+                )
+
+            [_pluginBroker:Omeka_Record_AbstractRecord:private] => 
+        )
+
+    [1] => File Object
+        (
+            [item_id] => 6920
+            [order] => 
+            [filename] => 8b2be177404521fe33a5d8e0a016a3ce.pdf
+            [original_filename] => https://s3-us-west-2.amazonaws.com/omekastaging/press_releases/GV012-05_PressReleases/GV012-05_pressReleases_1961-09-08.pdf
+            [size] => 97491
+            [authentication] => 745f3895df8f8d537aacbc6d51cf64e4
+            [mime_type] => application/pdf
+            [type_os] => PDF document, version 1.4
+            [has_derivative_image] => 1
+            [added] => 2018-01-19 15:56:00
+            [modified] => 2018-01-19 15:56:06
+            [stored] => 1
+            [metadata] => {"mime_type":"application\/pdf"}
+            [id] => 7253
+            [_errors:Omeka_Record_AbstractRecord:private] => Omeka_Validate_Errors Object
+                (
+                    [_errors:protected] => Array
+                        (
+                        )
+
+                    [storage:ArrayObject:private] => Array
+                        (
+                        )
+
+                )
+
+            [_cache:protected] => Array
+                (
+                )
+
+            [_mixins:protected] => Array
+                (
+                    [0] => Mixin_ElementText Object
+                        (
+                            [_textsByNaturalOrder:protected] => Array
+                                (
+                                )
+
+                            [_textsByElementId:protected] => Array
+                                (
+                                )
+
+                            [_elementsBySet:protected] => Array
+                                (
+                                )
+
+                            [_elementsById:protected] => Array
+                                (
+                                )
+
+                            [_elementsOnForm:protected] => Array
+                                (
+                                )
+
+                            [_textsToSave:protected] => Array
+                                (
+                                )
+
+                            [_recordsAreLoaded:protected] => 
+                            [_replaceElementTexts:protected] => 
+                            [_record:protected] => File Object
+ *RECURSION*
+                        )
+
+                    [1] => Mixin_Timestamp Object
+                        (
+                            [_record:protected] => File Object
+ *RECURSION*
+                            [_addedColumn:protected] => added
+                            [_modifiedColumn:protected] => modified
+                        )
+
+                    [2] => Mixin_Search Object
+                        (
+                            [_text:protected] => 
+                            [_title:protected] => 
+                            [_public:protected] => 1
+                            [_record:protected] => File Object
+ *RECURSION*
+                        )
+
+                )
+
+            [_db:protected] => Omeka_Db Object
+                (
+                    [prefix] => omeka_
+                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+                        (
+                            [_numericDataTypes:protected] => Array
+                                (
+                                    [0] => 0
+                                    [1] => 1
+                                    [2] => 2
+                                    [INT] => 0
+                                    [INTEGER] => 0
+                                    [MEDIUMINT] => 0
+                                    [SMALLINT] => 0
+                                    [TINYINT] => 0
+                                    [BIGINT] => 1
+                                    [SERIAL] => 1
+                                    [DEC] => 2
+                                    [DECIMAL] => 2
+                                    [DOUBLE] => 2
+                                    [DOUBLE PRECISION] => 2
+                                    [FIXED] => 2
+                                    [FLOAT] => 2
+                                )
+
+                            [_stmt:protected] => Zend_Db_Statement_Mysqli Object
+                                (
+                                    [_keys:protected] => Array
+                                        (
+                                            [0] => id
+                                            [1] => item_id
+                                            [2] => order
+                                            [3] => size
+                                            [4] => has_derivative_image
+                                            [5] => authentication
+                                            [6] => mime_type
+                                            [7] => type_os
+                                            [8] => filename
+                                            [9] => original_filename
+                                            [10] => modified
+                                            [11] => added
+                                            [12] => stored
+                                            [13] => metadata
+                                        )
+
+                                    [_values:protected] => Array
+                                        (
+                                            [0] => 7255
+                                            [1] => 6920
+                                            [2] => 
+                                            [3] => 246511
+                                            [4] => 1
+                                            [5] => c0fc5b7405b99c4f42397d3f48311750
+                                            [6] => application/pdf
+                                            [7] => PDF document, version 1.4
+                                            [8] => 575e1b033159705ed7864d55d24c4b1f.pdf
+                                            [9] => https://s3-us-west-2.amazonaws.com/omekastaging/press_releases/GV012-05_PressReleases/GV012-05_pressReleases_1961-09-15_1.pdf
+                                            [10] => 2018-01-19 15:56:19
+                                            [11] => 2018-01-19 15:56:13
+                                            [12] => 1
+                                            [13] => {"mime_type":"application\/pdf"}
+                                        )
+
+                                    [_meta:protected] => mysqli_result Object
+                                        (
+                                            [current_field] => 0
+                                            [field_count] => 14
+                                            [lengths] => 
+                                            [num_rows] => 0
+                                            [type] => 1
+                                        )
+
+                                    [_stmt:protected] => mysqli_stmt Object
+                                        (
+                                            [affected_rows] => -1
+                                            [insert_id] => 0
+                                            [num_rows] => 4
+                                            [param_count] => 1
+                                            [field_count] => 14
+                                            [errno] => 0
+                                            [error] => 
+                                            [error_list] => Array
+                                                (
+                                                )
+
+                                            [sqlstate] => 00000
+                                            [id] => 11
+                                        )
+
+                                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+ *RECURSION*
+                                    [_fetchMode:protected] => 2
+                                    [_attribute:protected] => Array
+                                        (
+                                        )
+
+                                    [_bindColumn:protected] => Array
+                                        (
+                                        )
+
+                                    [_bindParam:protected] => Array
+                                        (
+                                        )
+
+                                    [_sqlSplit:protected] => Array
+                                        (
+                                            [0] => SELECT .* FROM  AS 
+ INNER JOIN  AS  ON items.id = files.item_id WHERE (files.item_id = 
+                                            [1] => ?
+                                            [2] => ) GROUP BY . ORDER BY ISNULL(files.order) ASC, . ASC
+                                        )
+
+                                    [_sqlParam:protected] => Array
+                                        (
+                                            [0] => SELECT .* FROM  AS 
+ INNER JOIN  AS  ON items.id = files.item_id WHERE (files.item_id = 
+                                            [1] => ?
+                                            [2] => ) GROUP BY . ORDER BY ISNULL(files.order) ASC, . ASC
+                                        )
+
+                                    [_queryId:protected] => 
+                                )
+
+                            [_defaultStmtClass:protected] => Zend_Db_Statement_Mysqli
+                            [_config:protected] => Array
+                                (
+                                    [host] => 127.0.0.1
+                                    [username] => omekatestadmin
+                                    [password] => 0m3k8t3$t
+                                    [dbname] => omekatest
+                                    [prefix] => omeka_
+                                    [charset] => utf8
+                                    [driver_options] => Array
+                                        (
+                                            [MYSQLI_INIT_COMMAND] => SET SESSION sql_mode='STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+                                        )
+
+                                    [persistent] => 
+                                    [options] => Array
+                                        (
+                                            [caseFolding] => 0
+                                            [autoQuoteIdentifiers] => 1
+                                            [fetchMode] => 2
+                                        )
+
+                                )
+
+                            [_fetchMode:protected] => 2
+                            [_profiler:protected] => Zend_Db_Profiler Object
+                                (
+                                    [_queryProfiles:protected] => Array
+                                        (
+                                        )
+
+                                    [_enabled:protected] => 
+                                    [_filterElapsedSecs:protected] => 
+                                    [_filterTypes:protected] => 
+                                )
+
+                            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+                            [_connection:protected] => mysqli Object
+                                (
+                                    [affected_rows] => -1
+                                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd41fc93cccd5bac2fe7a $
+                                    [client_version] => 50011
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 14
+                                    [host_info] => 127.0.0.1 via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 5.6.28
+                                    [server_version] => 50628
+                                    [stat] => Uptime: 1760973  Threads: 1  Questions: 3908082  Slow queries: 32  Opens: 124  Flush tables: 1  Open tables: 114  Queries per second avg: 2.219
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 18876
+                                    [warning_count] => 0
+                                )
+
+                            [_caseFolding:protected] => 0
+                            [_autoQuoteIdentifiers:protected] => 1
+                            [_allowSerialization:protected] => 1
+                            [_autoReconnectOnUnserialize:protected] => 
+                        )
+
+                    [_tables:protected] => Array
+                        (
+                            [Option] => Omeka_Db_Table Object
+                                (
+                                    [_target:protected] => Option
+                                    [_name:protected] => options
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Plugin] => Table_Plugin Object
+                                (
+                                    [_target:protected] => Plugin
+                                    [_name:protected] => plugins
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Session] => Omeka_Db_Table Object
+                                (
+                                    [_target:protected] => Session
+                                    [_name:protected] => sessions
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Process] => Table_Process Object
+                                (
+                                    [_target:protected] => Process
+                                    [_name:protected] => processes
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [User] => Table_User Object
+                                (
+                                    [_target:protected] => User
+                                    [_name:protected] => users
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [File] => Table_File Object
+                                (
+                                    [_target:protected] => File
+                                    [_name:protected] => files
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Item] => Table_Item Object
+                                (
+                                    [_target:protected] => Item
+                                    [_name:protected] => items
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Tag] => Table_Tag Object
+                                (
+                                    [_target:protected] => Tag
+                                    [_name:protected] => 
+                                    [_tablePrefix:protected] => 
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [RecordsTags] => Table_RecordsTags Object
+                                (
+                                    [_target:protected] => RecordsTags
+                                    [_name:protected] => 
+                                    [_tablePrefix:protected] => 
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                        )
+
+                    [_logger:Omeka_Db:private] => 
+                )
+
+            [_related:protected] => Array
+                (
+                )
+
+            [_postData:protected] => 
+            [_locked:Omeka_Record_AbstractRecord:private] => 
+            [_eventCallbacks:Omeka_Record_AbstractRecord:private] => Array
+                (
+                    [0] => beforeSave
+                    [1] => afterSave
+                    [2] => beforeDelete
+                    [3] => afterDelete
+                )
+
+            [_pluginBroker:Omeka_Record_AbstractRecord:private] => 
+        )
+
+    [2] => File Object
+        (
+            [item_id] => 6920
+            [order] => 
+            [filename] => 533f8bb99cdb34a6db7f8e7754917a24.pdf
+            [original_filename] => https://s3-us-west-2.amazonaws.com/omekastaging/press_releases/GV012-05_PressReleases/GV012-05_pressReleases_1961-09-15.pdf
+            [size] => 87494
+            [authentication] => 221a8105c4dc28336a730e7dccc02a41
+            [mime_type] => application/pdf
+            [type_os] => PDF document, version 1.4
+            [has_derivative_image] => 1
+            [added] => 2018-01-19 15:56:06
+            [modified] => 2018-01-19 15:56:13
+            [stored] => 1
+            [metadata] => {"mime_type":"application\/pdf"}
+            [id] => 7254
+            [_errors:Omeka_Record_AbstractRecord:private] => Omeka_Validate_Errors Object
+                (
+                    [_errors:protected] => Array
+                        (
+                        )
+
+                    [storage:ArrayObject:private] => Array
+                        (
+                        )
+
+                )
+
+            [_cache:protected] => Array
+                (
+                )
+
+            [_mixins:protected] => Array
+                (
+                    [0] => Mixin_ElementText Object
+                        (
+                            [_textsByNaturalOrder:protected] => Array
+                                (
+                                )
+
+                            [_textsByElementId:protected] => Array
+                                (
+                                )
+
+                            [_elementsBySet:protected] => Array
+                                (
+                                )
+
+                            [_elementsById:protected] => Array
+                                (
+                                )
+
+                            [_elementsOnForm:protected] => Array
+                                (
+                                )
+
+                            [_textsToSave:protected] => Array
+                                (
+                                )
+
+                            [_recordsAreLoaded:protected] => 
+                            [_replaceElementTexts:protected] => 
+                            [_record:protected] => File Object
+ *RECURSION*
+                        )
+
+                    [1] => Mixin_Timestamp Object
+                        (
+                            [_record:protected] => File Object
+ *RECURSION*
+                            [_addedColumn:protected] => added
+                            [_modifiedColumn:protected] => modified
+                        )
+
+                    [2] => Mixin_Search Object
+                        (
+                            [_text:protected] => 
+                            [_title:protected] => 
+                            [_public:protected] => 1
+                            [_record:protected] => File Object
+ *RECURSION*
+                        )
+
+                )
+
+            [_db:protected] => Omeka_Db Object
+                (
+                    [prefix] => omeka_
+                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+                        (
+                            [_numericDataTypes:protected] => Array
+                                (
+                                    [0] => 0
+                                    [1] => 1
+                                    [2] => 2
+                                    [INT] => 0
+                                    [INTEGER] => 0
+                                    [MEDIUMINT] => 0
+                                    [SMALLINT] => 0
+                                    [TINYINT] => 0
+                                    [BIGINT] => 1
+                                    [SERIAL] => 1
+                                    [DEC] => 2
+                                    [DECIMAL] => 2
+                                    [DOUBLE] => 2
+                                    [DOUBLE PRECISION] => 2
+                                    [FIXED] => 2
+                                    [FLOAT] => 2
+                                )
+
+                            [_stmt:protected] => Zend_Db_Statement_Mysqli Object
+                                (
+                                    [_keys:protected] => Array
+                                        (
+                                            [0] => id
+                                            [1] => item_id
+                                            [2] => order
+                                            [3] => size
+                                            [4] => has_derivative_image
+                                            [5] => authentication
+                                            [6] => mime_type
+                                            [7] => type_os
+                                            [8] => filename
+                                            [9] => original_filename
+                                            [10] => modified
+                                            [11] => added
+                                            [12] => stored
+                                            [13] => metadata
+                                        )
+
+                                    [_values:protected] => Array
+                                        (
+                                            [0] => 7255
+                                            [1] => 6920
+                                            [2] => 
+                                            [3] => 246511
+                                            [4] => 1
+                                            [5] => c0fc5b7405b99c4f42397d3f48311750
+                                            [6] => application/pdf
+                                            [7] => PDF document, version 1.4
+                                            [8] => 575e1b033159705ed7864d55d24c4b1f.pdf
+                                            [9] => https://s3-us-west-2.amazonaws.com/omekastaging/press_releases/GV012-05_PressReleases/GV012-05_pressReleases_1961-09-15_1.pdf
+                                            [10] => 2018-01-19 15:56:19
+                                            [11] => 2018-01-19 15:56:13
+                                            [12] => 1
+                                            [13] => {"mime_type":"application\/pdf"}
+                                        )
+
+                                    [_meta:protected] => mysqli_result Object
+                                        (
+                                            [current_field] => 0
+                                            [field_count] => 14
+                                            [lengths] => 
+                                            [num_rows] => 0
+                                            [type] => 1
+                                        )
+
+                                    [_stmt:protected] => mysqli_stmt Object
+                                        (
+                                            [affected_rows] => -1
+                                            [insert_id] => 0
+                                            [num_rows] => 4
+                                            [param_count] => 1
+                                            [field_count] => 14
+                                            [errno] => 0
+                                            [error] => 
+                                            [error_list] => Array
+                                                (
+                                                )
+
+                                            [sqlstate] => 00000
+                                            [id] => 11
+                                        )
+
+                                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+ *RECURSION*
+                                    [_fetchMode:protected] => 2
+                                    [_attribute:protected] => Array
+                                        (
+                                        )
+
+                                    [_bindColumn:protected] => Array
+                                        (
+                                        )
+
+                                    [_bindParam:protected] => Array
+                                        (
+                                        )
+
+                                    [_sqlSplit:protected] => Array
+                                        (
+                                            [0] => SELECT .* FROM  AS 
+ INNER JOIN  AS  ON items.id = files.item_id WHERE (files.item_id = 
+                                            [1] => ?
+                                            [2] => ) GROUP BY . ORDER BY ISNULL(files.order) ASC, . ASC
+                                        )
+
+                                    [_sqlParam:protected] => Array
+                                        (
+                                            [0] => SELECT .* FROM  AS 
+ INNER JOIN  AS  ON items.id = files.item_id WHERE (files.item_id = 
+                                            [1] => ?
+                                            [2] => ) GROUP BY . ORDER BY ISNULL(files.order) ASC, . ASC
+                                        )
+
+                                    [_queryId:protected] => 
+                                )
+
+                            [_defaultStmtClass:protected] => Zend_Db_Statement_Mysqli
+                            [_config:protected] => Array
+                                (
+                                    [host] => 127.0.0.1
+                                    [username] => omekatestadmin
+                                    [password] => 0m3k8t3$t
+                                    [dbname] => omekatest
+                                    [prefix] => omeka_
+                                    [charset] => utf8
+                                    [driver_options] => Array
+                                        (
+                                            [MYSQLI_INIT_COMMAND] => SET SESSION sql_mode='STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+                                        )
+
+                                    [persistent] => 
+                                    [options] => Array
+                                        (
+                                            [caseFolding] => 0
+                                            [autoQuoteIdentifiers] => 1
+                                            [fetchMode] => 2
+                                        )
+
+                                )
+
+                            [_fetchMode:protected] => 2
+                            [_profiler:protected] => Zend_Db_Profiler Object
+                                (
+                                    [_queryProfiles:protected] => Array
+                                        (
+                                        )
+
+                                    [_enabled:protected] => 
+                                    [_filterElapsedSecs:protected] => 
+                                    [_filterTypes:protected] => 
+                                )
+
+                            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+                            [_connection:protected] => mysqli Object
+                                (
+                                    [affected_rows] => -1
+                                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd41fc93cccd5bac2fe7a $
+                                    [client_version] => 50011
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 14
+                                    [host_info] => 127.0.0.1 via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 5.6.28
+                                    [server_version] => 50628
+                                    [stat] => Uptime: 1760973  Threads: 1  Questions: 3908083  Slow queries: 32  Opens: 124  Flush tables: 1  Open tables: 114  Queries per second avg: 2.219
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 18876
+                                    [warning_count] => 0
+                                )
+
+                            [_caseFolding:protected] => 0
+                            [_autoQuoteIdentifiers:protected] => 1
+                            [_allowSerialization:protected] => 1
+                            [_autoReconnectOnUnserialize:protected] => 
+                        )
+
+                    [_tables:protected] => Array
+                        (
+                            [Option] => Omeka_Db_Table Object
+                                (
+                                    [_target:protected] => Option
+                                    [_name:protected] => options
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Plugin] => Table_Plugin Object
+                                (
+                                    [_target:protected] => Plugin
+                                    [_name:protected] => plugins
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Session] => Omeka_Db_Table Object
+                                (
+                                    [_target:protected] => Session
+                                    [_name:protected] => sessions
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Process] => Table_Process Object
+                                (
+                                    [_target:protected] => Process
+                                    [_name:protected] => processes
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [User] => Table_User Object
+                                (
+                                    [_target:protected] => User
+                                    [_name:protected] => users
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [File] => Table_File Object
+                                (
+                                    [_target:protected] => File
+                                    [_name:protected] => files
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Item] => Table_Item Object
+                                (
+                                    [_target:protected] => Item
+                                    [_name:protected] => items
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Tag] => Table_Tag Object
+                                (
+                                    [_target:protected] => Tag
+                                    [_name:protected] => 
+                                    [_tablePrefix:protected] => 
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [RecordsTags] => Table_RecordsTags Object
+                                (
+                                    [_target:protected] => RecordsTags
+                                    [_name:protected] => 
+                                    [_tablePrefix:protected] => 
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                        )
+
+                    [_logger:Omeka_Db:private] => 
+                )
+
+            [_related:protected] => Array
+                (
+                )
+
+            [_postData:protected] => 
+            [_locked:Omeka_Record_AbstractRecord:private] => 
+            [_eventCallbacks:Omeka_Record_AbstractRecord:private] => Array
+                (
+                    [0] => beforeSave
+                    [1] => afterSave
+                    [2] => beforeDelete
+                    [3] => afterDelete
+                )
+
+            [_pluginBroker:Omeka_Record_AbstractRecord:private] => 
+        )
+
+    [3] => File Object
+        (
+            [item_id] => 6920
+            [order] => 
+            [filename] => 575e1b033159705ed7864d55d24c4b1f.pdf
+            [original_filename] => https://s3-us-west-2.amazonaws.com/omekastaging/press_releases/GV012-05_PressReleases/GV012-05_pressReleases_1961-09-15_1.pdf
+            [size] => 246511
+            [authentication] => c0fc5b7405b99c4f42397d3f48311750
+            [mime_type] => application/pdf
+            [type_os] => PDF document, version 1.4
+            [has_derivative_image] => 1
+            [added] => 2018-01-19 15:56:13
+            [modified] => 2018-01-19 15:56:19
+            [stored] => 1
+            [metadata] => {"mime_type":"application\/pdf"}
+            [id] => 7255
+            [_errors:Omeka_Record_AbstractRecord:private] => Omeka_Validate_Errors Object
+                (
+                    [_errors:protected] => Array
+                        (
+                        )
+
+                    [storage:ArrayObject:private] => Array
+                        (
+                        )
+
+                )
+
+            [_cache:protected] => Array
+                (
+                )
+
+            [_mixins:protected] => Array
+                (
+                    [0] => Mixin_ElementText Object
+                        (
+                            [_textsByNaturalOrder:protected] => Array
+                                (
+                                )
+
+                            [_textsByElementId:protected] => Array
+                                (
+                                )
+
+                            [_elementsBySet:protected] => Array
+                                (
+                                )
+
+                            [_elementsById:protected] => Array
+                                (
+                                )
+
+                            [_elementsOnForm:protected] => Array
+                                (
+                                )
+
+                            [_textsToSave:protected] => Array
+                                (
+                                )
+
+                            [_recordsAreLoaded:protected] => 
+                            [_replaceElementTexts:protected] => 
+                            [_record:protected] => File Object
+ *RECURSION*
+                        )
+
+                    [1] => Mixin_Timestamp Object
+                        (
+                            [_record:protected] => File Object
+ *RECURSION*
+                            [_addedColumn:protected] => added
+                            [_modifiedColumn:protected] => modified
+                        )
+
+                    [2] => Mixin_Search Object
+                        (
+                            [_text:protected] => 
+                            [_title:protected] => 
+                            [_public:protected] => 1
+                            [_record:protected] => File Object
+ *RECURSION*
+                        )
+
+                )
+
+            [_db:protected] => Omeka_Db Object
+                (
+                    [prefix] => omeka_
+                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+                        (
+                            [_numericDataTypes:protected] => Array
+                                (
+                                    [0] => 0
+                                    [1] => 1
+                                    [2] => 2
+                                    [INT] => 0
+                                    [INTEGER] => 0
+                                    [MEDIUMINT] => 0
+                                    [SMALLINT] => 0
+                                    [TINYINT] => 0
+                                    [BIGINT] => 1
+                                    [SERIAL] => 1
+                                    [DEC] => 2
+                                    [DECIMAL] => 2
+                                    [DOUBLE] => 2
+                                    [DOUBLE PRECISION] => 2
+                                    [FIXED] => 2
+                                    [FLOAT] => 2
+                                )
+
+                            [_stmt:protected] => Zend_Db_Statement_Mysqli Object
+                                (
+                                    [_keys:protected] => Array
+                                        (
+                                            [0] => id
+                                            [1] => item_id
+                                            [2] => order
+                                            [3] => size
+                                            [4] => has_derivative_image
+                                            [5] => authentication
+                                            [6] => mime_type
+                                            [7] => type_os
+                                            [8] => filename
+                                            [9] => original_filename
+                                            [10] => modified
+                                            [11] => added
+                                            [12] => stored
+                                            [13] => metadata
+                                        )
+
+                                    [_values:protected] => Array
+                                        (
+                                            [0] => 7255
+                                            [1] => 6920
+                                            [2] => 
+                                            [3] => 246511
+                                            [4] => 1
+                                            [5] => c0fc5b7405b99c4f42397d3f48311750
+                                            [6] => application/pdf
+                                            [7] => PDF document, version 1.4
+                                            [8] => 575e1b033159705ed7864d55d24c4b1f.pdf
+                                            [9] => https://s3-us-west-2.amazonaws.com/omekastaging/press_releases/GV012-05_PressReleases/GV012-05_pressReleases_1961-09-15_1.pdf
+                                            [10] => 2018-01-19 15:56:19
+                                            [11] => 2018-01-19 15:56:13
+                                            [12] => 1
+                                            [13] => {"mime_type":"application\/pdf"}
+                                        )
+
+                                    [_meta:protected] => mysqli_result Object
+                                        (
+                                            [current_field] => 0
+                                            [field_count] => 14
+                                            [lengths] => 
+                                            [num_rows] => 0
+                                            [type] => 1
+                                        )
+
+                                    [_stmt:protected] => mysqli_stmt Object
+                                        (
+                                            [affected_rows] => -1
+                                            [insert_id] => 0
+                                            [num_rows] => 4
+                                            [param_count] => 1
+                                            [field_count] => 14
+                                            [errno] => 0
+                                            [error] => 
+                                            [error_list] => Array
+                                                (
+                                                )
+
+                                            [sqlstate] => 00000
+                                            [id] => 11
+                                        )
+
+                                    [_adapter:protected] => Zend_Db_Adapter_Mysqli Object
+ *RECURSION*
+                                    [_fetchMode:protected] => 2
+                                    [_attribute:protected] => Array
+                                        (
+                                        )
+
+                                    [_bindColumn:protected] => Array
+                                        (
+                                        )
+
+                                    [_bindParam:protected] => Array
+                                        (
+                                        )
+
+                                    [_sqlSplit:protected] => Array
+                                        (
+                                            [0] => SELECT .* FROM  AS 
+ INNER JOIN  AS  ON items.id = files.item_id WHERE (files.item_id = 
+                                            [1] => ?
+                                            [2] => ) GROUP BY . ORDER BY ISNULL(files.order) ASC, . ASC
+                                        )
+
+                                    [_sqlParam:protected] => Array
+                                        (
+                                            [0] => SELECT .* FROM  AS 
+ INNER JOIN  AS  ON items.id = files.item_id WHERE (files.item_id = 
+                                            [1] => ?
+                                            [2] => ) GROUP BY . ORDER BY ISNULL(files.order) ASC, . ASC
+                                        )
+
+                                    [_queryId:protected] => 
+                                )
+
+                            [_defaultStmtClass:protected] => Zend_Db_Statement_Mysqli
+                            [_config:protected] => Array
+                                (
+                                    [host] => 127.0.0.1
+                                    [username] => omekatestadmin
+                                    [password] => 0m3k8t3$t
+                                    [dbname] => omekatest
+                                    [prefix] => omeka_
+                                    [charset] => utf8
+                                    [driver_options] => Array
+                                        (
+                                            [MYSQLI_INIT_COMMAND] => SET SESSION sql_mode='STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+                                        )
+
+                                    [persistent] => 
+                                    [options] => Array
+                                        (
+                                            [caseFolding] => 0
+                                            [autoQuoteIdentifiers] => 1
+                                            [fetchMode] => 2
+                                        )
+
+                                )
+
+                            [_fetchMode:protected] => 2
+                            [_profiler:protected] => Zend_Db_Profiler Object
+                                (
+                                    [_queryProfiles:protected] => Array
+                                        (
+                                        )
+
+                                    [_enabled:protected] => 
+                                    [_filterElapsedSecs:protected] => 
+                                    [_filterTypes:protected] => 
+                                )
+
+                            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+                            [_connection:protected] => mysqli Object
+                                (
+                                    [affected_rows] => -1
+                                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 76b08b24596e12d4553bd41fc93cccd5bac2fe7a $
+                                    [client_version] => 50011
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 0
+                                    [error] => 
+                                    [error_list] => Array
+                                        (
+                                        )
+
+                                    [field_count] => 14
+                                    [host_info] => 127.0.0.1 via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 5.6.28
+                                    [server_version] => 50628
+                                    [stat] => Uptime: 1760973  Threads: 1  Questions: 3908084  Slow queries: 32  Opens: 124  Flush tables: 1  Open tables: 114  Queries per second avg: 2.219
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 18876
+                                    [warning_count] => 0
+                                )
+
+                            [_caseFolding:protected] => 0
+                            [_autoQuoteIdentifiers:protected] => 1
+                            [_allowSerialization:protected] => 1
+                            [_autoReconnectOnUnserialize:protected] => 
+                        )
+
+                    [_tables:protected] => Array
+                        (
+                            [Option] => Omeka_Db_Table Object
+                                (
+                                    [_target:protected] => Option
+                                    [_name:protected] => options
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Plugin] => Table_Plugin Object
+                                (
+                                    [_target:protected] => Plugin
+                                    [_name:protected] => plugins
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Session] => Omeka_Db_Table Object
+                                (
+                                    [_target:protected] => Session
+                                    [_name:protected] => sessions
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Process] => Table_Process Object
+                                (
+                                    [_target:protected] => Process
+                                    [_name:protected] => processes
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [User] => Table_User Object
+                                (
+                                    [_target:protected] => User
+                                    [_name:protected] => users
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [File] => Table_File Object
+                                (
+                                    [_target:protected] => File
+                                    [_name:protected] => files
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Item] => Table_Item Object
+                                (
+                                    [_target:protected] => Item
+                                    [_name:protected] => items
+                                    [_tablePrefix:protected] => omeka_
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [Tag] => Table_Tag Object
+                                (
+                                    [_target:protected] => Tag
+                                    [_name:protected] => 
+                                    [_tablePrefix:protected] => 
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                            [RecordsTags] => Table_RecordsTags Object
+                                (
+                                    [_target:protected] => RecordsTags
+                                    [_name:protected] => 
+                                    [_tablePrefix:protected] => 
+                                    [_db:protected] => Omeka_Db Object
+ *RECURSION*
+                                )
+
+                        )
+
+                    [_logger:Omeka_Db:private] => 
+                )
+
+            [_related:protected] => Array
+                (
+                )
+
+            [_postData:protected] => 
+            [_locked:Omeka_Record_AbstractRecord:private] => 
+            [_eventCallbacks:Omeka_Record_AbstractRecord:private] => Array
+                (
+                    [0] => beforeSave
+                    [1] => afterSave
+                    [2] => beforeDelete
+                    [3] => afterDelete
+                )
+
+            [_pluginBroker:Omeka_Record_AbstractRecord:private] => 
+        )
+
+)

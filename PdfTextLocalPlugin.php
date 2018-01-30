@@ -93,7 +93,7 @@ class PdfTextLocalPlugin extends Omeka_Plugin_AbstractPlugin
         // Run the text extraction process if directed to do so.
         if ($_POST['pdf_text_process'] && $this->isValidStorageAdapter()) {
             Zend_Registry::get('bootstrap')->getResource('jobs')
-                ->sendLongRunning('PdfTextProcess');
+                ->sendLongRunning('PdfTextLocalProcess');
         }
     }
 

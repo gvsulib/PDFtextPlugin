@@ -9,14 +9,15 @@
 /**
  * @package Omeka\Plugins\PdfText
  */
-class PdfTextProcess extends Omeka_Job_AbstractJob
+class PdfTextLocalProcess extends Omeka_Job_AbstractJob
 {
     /**
      * Process all PDF files in Omeka.
      */
     public function perform()
 
-    {
+    {   
+        
         
         $pdfTextLocalPlugin = new PdfTextLocalPlugin;
         $fileTable = $this->_db->getTable('File');
@@ -28,44 +29,86 @@ class PdfTextProcess extends Omeka_Job_AbstractJob
         //is positioned for any given file without explictily checking,
         //so I just attempt to delete the metadata for every file at both item and file level.
         
-        //get all PDF files
+        //get all PDF file records
+        
         $selectFiles = $this->_db->select()
         ->from($this->_db->File)
-        ->where('mime_type IN (?)', $pdfTextPlugin->getPdfMimeTypes());
+        ->where('mime_type IN (?)', $pdfTextLocalPlugin->getPdfMimeTypes());
 
         //now cycle through them, wiping text capture wherever it is
         $pageNumber = 1;
         while ($files = $fileTable->fetchObjects($selectFiles->limitPage($pageNumber, 50))) {
             foreach ($files as $file) {
+               
                 $textElement = $file->getElement(
-                    PdfTextPlugin::ELEMENT_SET_NAME,
-                    PdfTextPlugin::ELEMENT_NAME
+                    PdfTextLocalPlugin::ELEMENT_SET_NAME,
+                    PdfTextLocalPlugin::ELEMENT_NAME
                 );
                 $file->deleteElementTextsByElementId(array($textElement->id));
-                $selectItem = $this->_db->select()
-                    ->from($this->_db->Item)
-                    ->where("id = ?", $file->item_id);
-                $Item = $itemTable->fetchObject($selectItem);
-                $textElement = $Item->getElement(
-                    PdfTextPlugin::ELEMENT_SET_NAME,
-                    PdfTextPlugin::ELEMENT_NAME
-                );
-                $Item->deleteElementTextsByElementId(array($textElement->id));
+                
                 $file->save();
-                $Item->save();
+                
                 release_object($file);
-                release_object($Item);
-
+                
             }
             $pageNumber++;
         }
+        
+        //now get all item records with attached PDf documents and make sure text capture data is eliminated at that level
 
+        $selectItems = $this->_db->select()
+            ->from($this->_db->File, 'item_id')
+            ->where('mime_type IN (?)', $pdfTextLocalPlugin->getPdfMimeTypes())
+            ->group('item_id');
+
+        $stmt = $selectItems->query();
+
+        $result = $stmt->fetchAll();
+         
+        $cleanupArray = array();
+
+       
+        foreach ($result as $entry) {
+            $cleanupArray[] = $entry["item_id"];
+            
+
+        }
+        $item_ids = $cleanupArray;
+
+        fwrite($logfile, print_r($item_ids, true));
+        
+        foreach ($item_ids as $item_id) {
+            $select = $this->_db->select()
+            ->from($this->_db->Item)
+            ->where('id = ?', $item_id);
+            $Item = $itemTable->fetchObject($select);
+
+            if ($Item->id == "7596") {
+
+
+            }
+           
+            $textElement = $Item->getElement(
+                PdfTextLocalPlugin::ELEMENT_SET_NAME,
+                PdfTextLocalPlugin::ELEMENT_NAME
+            );
+            
+
+            $Item->deleteElementTextsByElementId(array($textElement->id));
+            $Item->save();
+            release_object($Item);
+
+        }
+
+        
+            
+        
 
         //get list of items that have multiple PDFs attached by counting item_ids
 
         $select_multiples = $this->_db->select()
             ->from($this->_db->File, 'item_id')
-            ->where('mime_type IN (?)', $pdfTextPlugin->getPdfMimeTypes())
+            ->where('mime_type IN (?)', $pdfTextLocalPlugin->getPdfMimeTypes())
             ->group('item_id')
             ->having('COUNT(item_id) > 1');
 
@@ -77,6 +120,7 @@ class PdfTextProcess extends Omeka_Job_AbstractJob
 
         $cleanupArray = array();
         foreach ($multiples as $entry) {
+           
             $cleanupArray[] = $entry["item_id"];
 
         }
@@ -97,15 +141,15 @@ class PdfTextProcess extends Omeka_Job_AbstractJob
 
                 // Delete any existing PDF text element texts from the file.
                 $textElement = $file->getElement(
-                    PdfTextPlugin::ELEMENT_SET_NAME,
-                    PdfTextPlugin::ELEMENT_NAME
+                    PdfTextLocalPlugin::ELEMENT_SET_NAME,
+                    PdfTextLocalPlugin::ELEMENT_NAME
                 );
                 
 
                 // Extract the PDF text and add it to the file.
                 $file->addTextForElement(
                     $textElement,
-                    $pdfTextPlugin->pdfToText(FILES_DIR . '/original/' . $file->filename)
+                    $pdfTextLocalPlugin->pdfToText(FILES_DIR . '/original/' . $file->filename)
                 );
                 $file->save();
 
@@ -120,7 +164,7 @@ class PdfTextProcess extends Omeka_Job_AbstractJob
 
         $select_singles = $this->_db->select()
             ->from($this->_db->File, 'item_id')
-            ->where('mime_type IN (?)', $pdfTextPlugin->getPdfMimeTypes())
+            ->where('mime_type IN (?)', $pdfTextLocalPlugin->getPdfMimeTypes())
             ->group('item_id')
             ->having('COUNT(item_id) = 1');
 
@@ -143,26 +187,26 @@ class PdfTextProcess extends Omeka_Job_AbstractJob
 
             $selectItemRecord = $this->_db->select()
                 ->from($this->_db->Item)
-                ->where('id = (?)', $itemID);
+                ->where('id = ?', $itemID);
 
             $Item = $itemTable->fetchObject($selectItemRecord);
 
             $textElement = $Item->getElement(
-                PdfTextPlugin::ELEMENT_SET_NAME,
-                PdfTextPlugin::ELEMENT_NAME
+                PdfTextLocalPlugin::ELEMENT_SET_NAME,
+                PdfTextLocalPlugin::ELEMENT_NAME
             );
             
             
 
             $files = $Item->getFiles();
 
-            $fileTypes = $pdfTextPlugin->getPdfMimeTypes();
+            $fileTypes = $pdfTextLocalPlugin->getPdfMimeTypes();
 
             foreach($files as $file) {
                 if (in_array($file->mime_type, $fileTypes)) {
                     $Item->addTextForElement(
                         $textElement,
-                        $pdfTextPlugin->pdfToText(FILES_DIR . '/original/' . $file->filename)
+                        $pdfTextLocalPlugin->pdfToText(FILES_DIR . '/original/' . $file->filename)
                     );
                     
 
@@ -174,7 +218,6 @@ class PdfTextProcess extends Omeka_Job_AbstractJob
         }
 
 
-       
-        
+     
     }
 }
